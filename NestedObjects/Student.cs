@@ -10,5 +10,7 @@ namespace NestedObjects
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public List<Course> Schedule { get; set; }
     }
 }
